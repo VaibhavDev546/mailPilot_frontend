@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MailPilot",
+    "slug": "mailpilot",
+    "scheme": "mailpilot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#020617",
+    "android": {
+      "package": "com.mailpilot.app",
+      "softwareKeyboardLayoutMode": "resize",
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "color": "#6366f1"
+        }
+      ],
+      "expo-asset",
+      "expo-sharing",
+      "expo-sqlite",
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "tsconfigPaths": true
+    }
+  }
+}
